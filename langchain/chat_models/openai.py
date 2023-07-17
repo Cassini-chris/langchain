@@ -145,7 +145,7 @@ class ChatOpenAI(BaseChatModel):
     environment variable ``OPENAI_API_KEY`` set with your API key.
 
     Any parameters that are valid to be passed to the openai.create call can be passed
-    in, even if not explicitly saved on this class.
+    in, even if not explicitly saved in this class.
 
     Example:
         .. code-block:: python
